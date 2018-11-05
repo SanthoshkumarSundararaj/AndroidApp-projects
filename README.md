@@ -3,7 +3,7 @@
 * Abanob Abdelmalak @[AbanoubAbdelmalak](https://github.com/AbanoubAbdelmalak)
 * Santhoshkumar Sundararaj @[SanthoshkumarSundararaj](https://github.com/SanthoshkumarSundararaj)
 * Saad Ullah Khan @[saaduk7](https://github.com/saaduk7)
-<br />
+
 ## Description
 * This repository contains the android application source code plus documentation.
 * Keeping smart cities in mind, this app is developped so that a user can select products that can be packed together by a smart robot.
