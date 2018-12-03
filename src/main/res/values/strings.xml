@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Application_choco</string>
+
+    <string-array name="chocolist">
+        <item>Snickers</item>
+        <item>Twix</item>
+        <item>Mars</item>
+        <item>Milky-way</item>
+        <item>mm</item>
+        <item>Skittles</item>
+        <item>Haribo</item>
+        <item>3Musketeers</item>
+        <item>Dove</item>
+        <item>maltesers</item>
+    </string-array>
+</resources>
