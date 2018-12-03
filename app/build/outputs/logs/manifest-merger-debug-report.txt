@@ -1,0 +1,225 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml:2:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/ad1fc20c8d13c7d11f33538e5e23da33/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/12afb3f7cdc9629ff0d026a8991a9ea6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/0e5703d33397052e3a1880c54e01c8e7/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-database:16.0.1] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.1.aar/10eccf0a25160fa7e3876654c709248b/AndroidManifest.xml:2:1-8:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/af35b7dab9ea502c040744fd54936213/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/eff6dd632af73a2b3255d621cbd83c03/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/1cbd6aeaffca7aaab42bf3f0475970ca/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:16.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/a5fad07a764867aadd4fac96d2c69e38/AndroidManifest.xml:2:1-16:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/8fb110dcb5534ddc9381b2aa0cde9133/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-15.0.1.aar/d842bcc461ce65d6b483f9c94865e905/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/d58cca7e9caaeaf47f7d5f583e08dade/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/a51796e5063f672da1f954a7f6ea6139/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/3124e2cc342482c5d724965d2c877176/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/e0c3e8500d7b174e368ae40d424afdf7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/a782f9a523be3417f7c42b4ca0bf6f2e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/9dd8963808b9388fbb0cdd8745b435cc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/9b33ead582b5db99d32d6b1253c60134/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/b17fabb9dd4ebe3c7ec8dbad9672db6d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/71b25c2688c4dea59530eff186d45da7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/b82b71cb4c54109ca92a81aa18965015/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/c4699f9e457f67748c0e4dfc26892782/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/75c6ffbc1437e8370b8f4dd75b02a956/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/99c4ded1904c79c8ddd783ba6c199d67/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/cdb85ae35dcc21a2081fcc4761c2c861/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7f8059be5a9164bdfebb2c68f761a04f/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3abeeac6bb66a5483a3423c323494c14/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/de024a432c44016118e1e617dae674ee/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f717c60b6f0dd807638c64e4432ed939/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/c59d9b148083fcc220804ca625bfb7bd/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/b741532164ee0c70fc8a89bb96482046/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/6af79b177f448c4659a5011f534aee94/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/cb6133d965ec7c89c7fdecba63e8c320/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/9ef7b68dfc8a1981e5c2de2ba26569c9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/57b77467d11b17807d9a1522598de020/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/2743681e199fa936e77d2d99e5eb0911/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/03667498c3aea803b7be93c29c489c81/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml:3:5-54
+		INJECTED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml
+		ADDED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml
+		ADDED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml:5:5-22:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/0e5703d33397052e3a1880c54e01c8e7/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/0e5703d33397052e3a1880c54e01c8e7/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-common:16.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/a5fad07a764867aadd4fac96d2c69e38/AndroidManifest.xml:8:5-14:19
+MERGED from [com.google.firebase:firebase-common:16.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/a5fad07a764867aadd4fac96d2c69e38/AndroidManifest.xml:8:5-14:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/8fb110dcb5534ddc9381b2aa0cde9133/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/8fb110dcb5534ddc9381b2aa0cde9133/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/d58cca7e9caaeaf47f7d5f583e08dade/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/d58cca7e9caaeaf47f7d5f583e08dade/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/a51796e5063f672da1f954a7f6ea6139/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/a51796e5063f672da1f954a7f6ea6139/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/3124e2cc342482c5d724965d2c877176/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/3124e2cc342482c5d724965d2c877176/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7f8059be5a9164bdfebb2c68f761a04f/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7f8059be5a9164bdfebb2c68f761a04f/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3abeeac6bb66a5483a3423c323494c14/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3abeeac6bb66a5483a3423c323494c14/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7f8059be5a9164bdfebb2c68f761a04f/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.karthik.myapplication_choco.MainActivity
+ADDED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml:12:9-14:20
+	android:name
+		ADDED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml:12:19-47
+activity#com.example.karthik.myapplication_choco.SplashScreen
+ADDED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml:15:9-21:20
+	android:name
+		ADDED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml:15:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml:19:27-74
+uses-sdk
+INJECTED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml
+INJECTED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/ad1fc20c8d13c7d11f33538e5e23da33/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/ad1fc20c8d13c7d11f33538e5e23da33/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/12afb3f7cdc9629ff0d026a8991a9ea6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/12afb3f7cdc9629ff0d026a8991a9ea6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/0e5703d33397052e3a1880c54e01c8e7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/0e5703d33397052e3a1880c54e01c8e7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database:16.0.1] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.1.aar/10eccf0a25160fa7e3876654c709248b/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database:16.0.1] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.1.aar/10eccf0a25160fa7e3876654c709248b/AndroidManifest.xml:6:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/af35b7dab9ea502c040744fd54936213/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/af35b7dab9ea502c040744fd54936213/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/eff6dd632af73a2b3255d621cbd83c03/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/eff6dd632af73a2b3255d621cbd83c03/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/1cbd6aeaffca7aaab42bf3f0475970ca/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/1cbd6aeaffca7aaab42bf3f0475970ca/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/a5fad07a764867aadd4fac96d2c69e38/AndroidManifest.xml:5:5-6:37
+MERGED from [com.google.firebase:firebase-common:16.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/a5fad07a764867aadd4fac96d2c69e38/AndroidManifest.xml:5:5-6:37
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/8fb110dcb5534ddc9381b2aa0cde9133/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/8fb110dcb5534ddc9381b2aa0cde9133/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-15.0.1.aar/d842bcc461ce65d6b483f9c94865e905/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-15.0.1.aar/d842bcc461ce65d6b483f9c94865e905/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/d58cca7e9caaeaf47f7d5f583e08dade/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/d58cca7e9caaeaf47f7d5f583e08dade/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/a51796e5063f672da1f954a7f6ea6139/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/a51796e5063f672da1f954a7f6ea6139/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/3124e2cc342482c5d724965d2c877176/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/3124e2cc342482c5d724965d2c877176/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/e0c3e8500d7b174e368ae40d424afdf7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/e0c3e8500d7b174e368ae40d424afdf7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/a782f9a523be3417f7c42b4ca0bf6f2e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/a782f9a523be3417f7c42b4ca0bf6f2e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/9dd8963808b9388fbb0cdd8745b435cc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/9dd8963808b9388fbb0cdd8745b435cc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/9b33ead582b5db99d32d6b1253c60134/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/9b33ead582b5db99d32d6b1253c60134/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/b17fabb9dd4ebe3c7ec8dbad9672db6d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/b17fabb9dd4ebe3c7ec8dbad9672db6d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/71b25c2688c4dea59530eff186d45da7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/71b25c2688c4dea59530eff186d45da7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/b82b71cb4c54109ca92a81aa18965015/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/b82b71cb4c54109ca92a81aa18965015/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/c4699f9e457f67748c0e4dfc26892782/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/c4699f9e457f67748c0e4dfc26892782/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/75c6ffbc1437e8370b8f4dd75b02a956/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/75c6ffbc1437e8370b8f4dd75b02a956/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/99c4ded1904c79c8ddd783ba6c199d67/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/99c4ded1904c79c8ddd783ba6c199d67/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/cdb85ae35dcc21a2081fcc4761c2c861/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/cdb85ae35dcc21a2081fcc4761c2c861/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7f8059be5a9164bdfebb2c68f761a04f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7f8059be5a9164bdfebb2c68f761a04f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3abeeac6bb66a5483a3423c323494c14/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3abeeac6bb66a5483a3423c323494c14/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/de024a432c44016118e1e617dae674ee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/de024a432c44016118e1e617dae674ee/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f717c60b6f0dd807638c64e4432ed939/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f717c60b6f0dd807638c64e4432ed939/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/c59d9b148083fcc220804ca625bfb7bd/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/c59d9b148083fcc220804ca625bfb7bd/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/b741532164ee0c70fc8a89bb96482046/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/b741532164ee0c70fc8a89bb96482046/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/6af79b177f448c4659a5011f534aee94/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/6af79b177f448c4659a5011f534aee94/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/cb6133d965ec7c89c7fdecba63e8c320/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/cb6133d965ec7c89c7fdecba63e8c320/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/9ef7b68dfc8a1981e5c2de2ba26569c9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/9ef7b68dfc8a1981e5c2de2ba26569c9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/57b77467d11b17807d9a1522598de020/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/57b77467d11b17807d9a1522598de020/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/2743681e199fa936e77d2d99e5eb0911/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/2743681e199fa936e77d2d99e5eb0911/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/03667498c3aea803b7be93c29c489c81/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/03667498c3aea803b7be93c29c489c81/AndroidManifest.xml:20:5-44
+INJECTED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml
+INJECTED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/a51796e5063f672da1f954a7f6ea6139/AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml
+		ADDED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml
+		ADDED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/abanoubabdelmalak/Documents/MAS2/SDP/MyApplication_choco/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-database-connection:16.0.1] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/1cbd6aeaffca7aaab42bf3f0475970ca/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-database-connection:16.0.1] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/1cbd6aeaffca7aaab42bf3f0475970ca/AndroidManifest.xml:8:22-64
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/a5fad07a764867aadd4fac96d2c69e38/AndroidManifest.xml:9:9-13:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/a5fad07a764867aadd4fac96d2c69e38/AndroidManifest.xml:11:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/a5fad07a764867aadd4fac96d2c69e38/AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/a5fad07a764867aadd4fac96d2c69e38/AndroidManifest.xml:13:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/a5fad07a764867aadd4fac96d2c69e38/AndroidManifest.xml:10:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/d58cca7e9caaeaf47f7d5f583e08dade/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/d58cca7e9caaeaf47f7d5f583e08dade/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/d58cca7e9caaeaf47f7d5f583e08dade/AndroidManifest.xml:24:13-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/a51796e5063f672da1f954a7f6ea6139/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/3124e2cc342482c5d724965d2c877176/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/3124e2cc342482c5d724965d2c877176/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/a51796e5063f672da1f954a7f6ea6139/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/abanoubabdelmalak/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/a51796e5063f672da1f954a7f6ea6139/AndroidManifest.xml:27:13-51
