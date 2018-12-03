@@ -27,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
 
     GridLayout maingrid;
     #firebase
+    FirebaseDatabase database = FirebaseDatabase.getInstance();
+    DatabaseReference myRef = database.getReference("Orders");
     String record = "";
     Random rand = new Random();
     int  token = rand.nextInt(50) + 1;
