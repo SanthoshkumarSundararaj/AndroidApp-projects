@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "619756596278",
+    "firebase_url": "https://chocolate-list.firebaseio.com",
+    "project_id": "chocolate-list",
+    "storage_bucket": "chocolate-list.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619756596278:android:3cda2cfa29052ddb",
+        "android_client_info": {
+          "package_name": "com.example.karthik.myapplication_choco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619756596278-8sqs94rr4a7ja2mae9huscnchi6ta7l2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.karthik.myapplication_choco",
+            "certificate_hash": "cf41585fef240d06e3e95731eb527d06af77e3d6"
+          }
+        },
+        {
+          "client_id": "619756596278-gdv9vqi7vjkam25hsoinkjnnu03d2pvn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2uGc1wEqqwn3PHrqPRSB_hfjZBMGw1_8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619756596278-gdv9vqi7vjkam25hsoinkjnnu03d2pvn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
