@@ -37,11 +37,9 @@ public class MainActivity extends AppCompatActivity {
     char token2 = 'a';
     char token3 = 'a';
     String token = "";
-    // variable to store length of selected item
-    int count = 0;
-    String token_str = String.valueOf(token);
     // Array to store names of selected items.
     ArrayList<String> selection = new ArrayList<String>();
+    ArrayList<String> Packet = new ArrayList<String>();
     CardView cardView;
     // variable to store refrence key of placed order.
     String refKey = "";
@@ -51,10 +49,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         maingrid = (GridLayout)findViewById(R.id.maingrid);
-
         setToggleEvent(maingrid);
-
-
     }
     // Function to make changes in 1 activity.
     private void setToggleEvent(GridLayout maingrid) {
@@ -69,128 +64,18 @@ public class MainActivity extends AppCompatActivity {
 
                 @Override
                 public void onClick(View v) {
-
-                    if (finalI == 0 && count <3) {
-                        // If an icon is selected, change color to orange and add name to selected array
-                        if(cardView.getCardBackgroundColor().getDefaultColor() == -1 && count <3)
-                        {
-                            cardView.setCardBackgroundColor(Color.parseColor("#DC143C"));
-                            selection.add(item_names[finalI]);
-                            count++;
-                        }
-                        else{
-                            // If an icon is deselected, change color to default, and remove it from selected array.
-                            cardView.setCardBackgroundColor(Color.parseColor("#FFFFFF"));
-                            selection.remove(item_names[finalI]);
-                            count--;
-                        }
-                    } else if (finalI == 1 && count <3) {
-                        if(cardView.getCardBackgroundColor().getDefaultColor() == -1 && count <3)
-                        {
-                            cardView.setCardBackgroundColor(Color.parseColor("#DC143C"));
-                            selection.add(item_names[finalI]);
-                            count++;
-                        }
-                        else{
-                            cardView.setCardBackgroundColor(Color.parseColor("#FFFFFF"));
-                            selection.remove(item_names[finalI]);
-                            count--;
-                        }
-                    } else if (finalI == 2 && count <3) {
-                        if(cardView.getCardBackgroundColor().getDefaultColor() == -1 && count <3)
-                        {
-                            cardView.setCardBackgroundColor(Color.parseColor("#DC143C"));
-                            selection.add(item_names[finalI]);
-                            count++;
-                        }
-                        else{
-                            cardView.setCardBackgroundColor(Color.parseColor("#FFFFFF"));
-                            selection.remove(item_names[finalI]);
-                            count--;
-                        }
-                    } else if (finalI == 3 && count <3) {
-                        if(cardView.getCardBackgroundColor().getDefaultColor() == -1 && count <3)
-                        {
-                            cardView.setCardBackgroundColor(Color.parseColor("#DC143C"));
-                            selection.add(item_names[finalI]);
-                            count++;
-                        }
-                        else{
-                            cardView.setCardBackgroundColor(Color.parseColor("#FFFFFF"));
-                            selection.remove(item_names[finalI]);
-                            count--;
-                        }
-                    } else if (finalI == 4 && count <3) {
-                        if(cardView.getCardBackgroundColor().getDefaultColor() == -1 && count <3)
-                        {
-                            cardView.setCardBackgroundColor(Color.parseColor("#DC143C"));
-                            selection.add(item_names[finalI]);
-                            count++;
-                        }
-                        else{
-                            cardView.setCardBackgroundColor(Color.parseColor("#FFFFFF"));
-                            selection.remove(item_names[finalI]);
-                            count--;
-                        }
-                    } else if (finalI == 5 && count <3) {
-                        if(cardView.getCardBackgroundColor().getDefaultColor() == -1 && count <3)
-                        {
-                            cardView.setCardBackgroundColor(Color.parseColor("#DC143C"));
-                            selection.add(item_names[finalI]);
-                            count++;
-                        }
-                        else{
-                            cardView.setCardBackgroundColor(Color.parseColor("#FFFFFF"));
-                            selection.remove(item_names[finalI]);
-                            count--;
-                        }
-                    } else if (finalI == 6 && count <3) {
-                        if(cardView.getCardBackgroundColor().getDefaultColor() == -1 && count <3)
-                        {
-                            cardView.setCardBackgroundColor(Color.parseColor("#DC143C"));
-                            selection.add(item_names[finalI]);
-                            count++;
-                        }
-                        else{
-                            cardView.setCardBackgroundColor(Color.parseColor("#FFFFFF"));
-                            selection.remove(item_names[finalI]);
-                            count--;
-                        }
-                    } else if (finalI == 7 && count <3) {
-                        if(cardView.getCardBackgroundColor().getDefaultColor() == -1 && count <3)
-                        {
-                            cardView.setCardBackgroundColor(Color.parseColor("#DC143C"));
-                            selection.add(item_names[finalI]);
-                            count++;
-                        }
-                        else{
-                            cardView.setCardBackgroundColor(Color.parseColor("#FFFFFF"));
-                            selection.remove(item_names[finalI]);
-                            count--;
-                        }
-                    } else if (finalI == 8 && count <3) {
-                        if(cardView.getCardBackgroundColor().getDefaultColor() == -1 && count <3)
-                        {
-                            cardView.setCardBackgroundColor(Color.parseColor("#DC143C"));
-                            selection.add(item_names[finalI]);
-                            count++;
-                        }
-                        else{
-                            cardView.setCardBackgroundColor(Color.parseColor("#FFFFFF"));
-                            selection.remove(item_names[finalI]);
-                            count--;
-                        }
-                    } else if (finalI == 9 && count <3) {
-                        if(cardView.getCardBackgroundColor().getDefaultColor() == -1 && count<3 )
-                        {
-                            cardView.setCardBackgroundColor(Color.parseColor("#DC143C"));
-                            selection.add(item_names[finalI]);
-                            count++;
-                        }
-                        else {
-                            cardView.setCardBackgroundColor(Color.parseColor("#FFFFFF"));
-                            selection.remove(item_names[finalI]);
-                            count--;
+                    for(int j =0;j<10;j++){
+                        if(finalI == j){
+                            if(cardView.getCardBackgroundColor().getDefaultColor() == -1 && selection.size() <3)
+                            {
+                                cardView.setCardBackgroundColor(Color.parseColor("#DC143C"));
+                                selection.add(item_names[finalI]);
+                            }
+                            else if(cardView.getCardBackgroundColor().getDefaultColor() != -1){
+                                // If an icon is deselected, change color to default, and remove it from selected array.
+                                cardView.setCardBackgroundColor(Color.parseColor("#FFFFFF"));
+                                selection.remove(item_names[finalI]);
+                            }
                         }
                     }
 
@@ -203,32 +88,37 @@ public class MainActivity extends AppCompatActivity {
     // Function to listen to clicked buttons.
     public void onClickBtn(View v) {
         // If "orderbutton" is clicked: display token and push selection with token to firebase.
-        if (v.getId() == R.id.orderbutton) {
+        if (v.getId() == R.id.orderbutton && selection.size() != 0) {
             token0 = rand.nextInt(50) + 1;
             token1 = Character.toUpperCase((char)(rand.nextInt(26) + 'a'));
             token2 = Character.toUpperCase((char)(rand.nextInt(26) + 'a'));
             token3 = Character.toUpperCase((char)(rand.nextInt(26) + 'a'));
             token = "" + token3 + token2 + token1 + String.valueOf(token0);
-            selection.add(token);
-//            Toast.makeText(this, "Order Placed " + selection, Toast.LENGTH_LONG).show();
+            String temp_str = selection.get(0);
+            for(int i=1; i< selection.size();i++){
+                temp_str = temp_str + " , " + selection.get(i);
+            }
+            Packet.add(temp_str);
+            Packet.add("Token: " + token);
+            Toast.makeText(this, "Order Placed " + token  , Toast.LENGTH_LONG).show();
             DatabaseReference pushedPostRef = myRef.push();
-            pushedPostRef.setValue(selection);
+            pushedPostRef.setValue(Packet);
             refKey = pushedPostRef.getKey();
             Intent intent = new Intent(MainActivity.this, display.class);
-            intent.putStringArrayListExtra("token",selection);
+            intent.putStringArrayListExtra("token",Packet);
             startActivity(intent);
             // Clear the selected items
             selection.clear();
+            Packet.clear();
             for (int i = 0; i < maingrid.getChildCount(); i++) {
 
                 final CardView cardView = (CardView) maingrid.getChildAt(i);
                 cardView.setCardBackgroundColor(Color.parseColor("#FFFFFF"));
             }
-            count = 0;
 
         }
         // If "orderbutton3" is clicked: delete the child in firebase via the reference key.
-        if (v.getId() == R.id.orderbutton3) {
+        if (v.getId() == R.id.orderbutton3 &&  !refKey.isEmpty() ) {
             Toast.makeText(this, "Order Cancelled " , Toast.LENGTH_LONG).show();
             myRef.child(refKey).removeValue();
             selection.clear();
@@ -237,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
                 final CardView cardView = (CardView) maingrid.getChildAt(i);
                 cardView.setCardBackgroundColor(Color.parseColor("#FFFFFF"));
             }
-            count = 0;
+
         }
     }
 
