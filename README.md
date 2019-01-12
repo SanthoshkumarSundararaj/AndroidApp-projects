@@ -10,4 +10,4 @@
 * Now this app is specifically configured for the Smart City competition event to be held in 2019 in Milton Keynes where the products are candies which are to be packed by the HBRS robots.
 * This app serves as an interface to reduce the gap between the users and the robots.
 * This is the UML interaction diagram:
-![UML interaction diagram](https://github.com/HBRS-SDP/sdp_2018wt_P8_SmartCityApp/blob/master/UML_diagrams/sdp_uml_interaction.png)
+![UML interaction diagram](https://github.com/HBRS-SDP/sdp_2018wt_P8_SmartCityApp/blob/abanoub/UML%20diagrams/sdp_uml_interaction.png)
