@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">My Application_choco</string>
+
+    <string name="item0">@drawable/snickers</string>
+    <string name="item0_name">Snickers</string>
+    <string name="item0_text">Nuts, Cashew, Milk</string>
+
+    <string name="item1">@drawable/twix</string>
+    <string name="item1_name">Twix</string>
+    <string name="item1_text">Nuts, Cashew, Milk</string>
+
+    <string name="item2">@drawable/mars</string>
+    <string name="item2_name">Mars</string>
+    <string name="item2_text">Nuts, Cashew, Milk</string>
+
+    <string name="item3">@drawable/milkyway</string>
+    <string name="item3_name">MilkyWay</string>
+    <string name="item3_text">Nuts, Cashew, Milk</string>
+
+    <string name="item4">@drawable/mm</string>
+    <string name="item4_name">MM</string>
+    <string name="item4_text">Nuts, Cashew, Milk</string>
+
+    <string name="item5">@drawable/skittles</string>
+    <string name="item5_name">Skittles</string>
+    <string name="item5_text">Nuts, Cashew, Milk</string>
+
+    <string name="item6">@drawable/haribo</string>
+    <string name="item6_name">Haribo</string>
+    <string name="item6_text">Nuts, Cashew, Milk</string>
+
+    <string name="item7">@drawable/mus</string>
+    <string name="item7_name">3Musketeers</string>
+    <string name="item7_text">Nuts, Cashew, Milk</string>
+
+    <string name="item8">@drawable/dove</string>
+    <string name="item8_name">Dove</string>
+    <string name="item8_text">Nuts, Cashew, Milk</string>
+
+    <string name="item9">@drawable/mal</string>
+    <string name="item9_name">Maltesers</string>
+    <string name="item9_text">Nuts, Cashew, Milk</string>
+
+    <string-array name="items_list">
+        <item>Snickers</item>
+        <item>Twix</item>
+        <item>Mars</item>
+        <item>Milky-way</item>
+        <item>mm</item>
+        <item>Skittles</item>
+        <item>Haribo</item>
+        <item>3Musketeers</item>
+        <item>Dove</item>
+        <item>maltesers</item>
+    </string-array>
+
+</resources>

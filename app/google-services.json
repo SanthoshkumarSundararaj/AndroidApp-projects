@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "311344864459",
+    "firebase_url": "https://myapp-1b9a4.firebaseio.com",
+    "project_id": "myapp-1b9a4",
+    "storage_bucket": "myapp-1b9a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:311344864459:android:3cda2cfa29052ddb",
+        "android_client_info": {
+          "package_name": "com.example.karthik.myapplication_choco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "311344864459-3vfj8lcp6c88oaq8e0nje10b3gmje31c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmsKKYfiuGiB3iPAVe_8kaykrBCYKcYDQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
