@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
     char token2 = 'a';
     char token3 = 'a';
     String token = "";
+    boolean clicked = false;
     // Array to store names of selected items.
     ArrayList<String> selection = new ArrayList<String>();
     ArrayList<String> Packet = new ArrayList<String>();
@@ -100,12 +101,15 @@ public class MainActivity extends AppCompatActivity {
             }
             Packet.add(temp_str);
             Packet.add("Token: " + token);
+            clicked = true;
             Toast.makeText(this, "Order Placed " + token  , Toast.LENGTH_LONG).show();
             DatabaseReference pushedPostRef = myRef.push();
             pushedPostRef.setValue(Packet);
+            selection.add(token);
             refKey = pushedPostRef.getKey();
             Intent intent = new Intent(MainActivity.this, display.class);
-            intent.putStringArrayListExtra("token",Packet);
+            intent.putExtra("clicked",clicked);
+            intent.putStringArrayListExtra("token",selection);
             startActivity(intent);
             // Clear the selected items
             selection.clear();
