@@ -26,7 +26,9 @@ import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
 
+    // object for the maingrid in the xml
     GridLayout maingrid;
+    // object for firebase database initialization
     FirebaseDatabase database = FirebaseDatabase.getInstance();
     DatabaseReference myRef = database.getReference("Orders");
     String record = "";
@@ -103,10 +105,12 @@ public class MainActivity extends AppCompatActivity {
             Packet.add("Token: " + token);
             clicked = true;
             Toast.makeText(this, "Order Placed " + token  , Toast.LENGTH_LONG).show();
+            // To update the database with selected candies
             DatabaseReference pushedPostRef = myRef.push();
             pushedPostRef.setValue(Packet);
             selection.add(token);
             refKey = pushedPostRef.getKey();
+            // Creating new intent
             Intent intent = new Intent(MainActivity.this, display.class);
             intent.putExtra("clicked",clicked);
             intent.putStringArrayListExtra("token",selection);
@@ -114,6 +118,7 @@ public class MainActivity extends AppCompatActivity {
             // Clear the selected items
             selection.clear();
             Packet.clear();
+            // For unselecting the selected candies with another click
             for (int i = 0; i < maingrid.getChildCount(); i++) {
 
                 final CardView cardView = (CardView) maingrid.getChildAt(i);

@@ -37,14 +37,12 @@
                 android:layout_marginBottom="16dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
-
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:layout_margin="16dp"
                     android:orientation="vertical">
-
                     <TextView
                         android:id="@+id/textView1"
                         android:layout_width="100dp"
@@ -52,7 +50,6 @@
                         android:layout_marginLeft="125dp"
                         android:text="@string/item0_name"
                         android:textColor="@color/colorPrimaryDark" />
-
                     <TextView
                         android:id="@+id/textView2"
                         android:layout_width="100dp"
@@ -61,15 +58,12 @@
                         android:layout_marginTop="10dp"
                         android:text="@string/item0_text"
                         android:textColor="@color/colorPrimary" />
-
                     <ImageView
                         android:layout_width="100dp"
                         android:layout_height="75dp"
                         android:layout_marginTop="-70dp"
                         android:layout_marginRight="150dp"
                         android:src="@string/item0" />
-
-
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
